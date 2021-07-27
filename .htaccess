@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^(test\.a) index.php?route=a [L]
+RewriteRule ^(test\.b) index.php?route=b [L]
+RewriteRule ^(test\.c) index.php?route=c [L]
+RewriteRule ^(user)/(\d*) d.php?id=$2 [L]
+
